@@ -1,6 +1,6 @@
 ﻿---
-title: Présentation des paramètres de configuration du service de journalisation centralisée
-TOCTitle: Présentation des paramètres de configuration du service de journalisation centralisée
+title: "Présentation des param. de config. du service de journalisation centralisée"
+TOCtitle: "Présentation des param. de config. du service de journalisation centralisée"
 ms:assetid: 3c34e600-0b91-43dc-b4cc-90b6a70ee12e
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688029(v=OCS.15)
 ms:contentKeyID: 49891312
@@ -25,7 +25,7 @@ Tapez ce qui suit dans une invite de ligne de commande :
 
     Get-CsClsConfiguration
 
-> [!tip]  
+> [!TIP]  
 > Vous pouvez limiter ou étendre la portée des paramètres de configuration retournés en définissant <code>-Identity</code> et une portée (par exemple, « Site:Redmond » pour retourner uniquement CsClsConfiguration pour le site Redmond. Si vous avez besoin de détails sur une partie spécifique de la configuration, vous pouvez rediriger le résultat vers une autre applet de commande Windows PowerShell. Par exemple, pour obtenir des détails sur les scénarios définis dans la configuration du site « Redmond », tapez : <code>Get-CsClsConfiguration -Identity &quot;site:Redmond&quot; | Select-Object -ExpandPropery Scenarios</code>
 
 ![Exemple de sortie de Get-CsClsConfiguration.](images/JJ688138.23f98ddc-fc48-499a-b6c5-752611f2a0b0(OCS.15).jpg "Exemple de sortie de Get-CsClsConfiguration.")

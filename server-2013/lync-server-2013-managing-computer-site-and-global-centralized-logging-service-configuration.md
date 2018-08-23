@@ -1,6 +1,6 @@
 ﻿---
-title: Gestion de la configuration du service de journalisation centralisée au niveau d’un ordinateur, d’un site ou au niveau global
-TOCTitle: Gestion de la configuration du service de journalisation centralisée au niveau d’un ordinateur, d’un site ou au niveau global
+title: "Gest. conf. du serv. de journ. Centr. au niv. d’un ordi., site ou au niv. gl."
+TOCtitle: "Gest. conf. du serv. de journ. Centr. au niv. d’un ordi., site ou au niv. gl."
 ms:assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688138(v=OCS.15)
 ms:contentKeyID: 49891449
@@ -31,7 +31,7 @@ Il existe des différences fondamentales entre les commandes en ligne de command
 
 Une étendue d’ordinateur peut être définie lors de l’exécution d’une commande [Search-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Search-CsClsLogging), [Show-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Show-CsClsLogging), [Start-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Start-CsClsLogging), [Stop-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging), [Sync-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Sync-CsClsLogging) et [Update-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Update-CsClsLogging) avec le paramètre –Computers. Le paramètre –Computers accepte une liste de noms de domaine complets séparés par des virgules pour l’ordinateur cible.
 
-> [!tip]  
+> [!TIP]  
 > Vous pouvez également définir –Pools et une liste de pools séparée par des virgules sur laquelle exécuter les commandes de journalisation.
 
 Les étendues globale et de site sont définies dans les applets de commande **New-**, **Set-** et **Remove-**service de journalisation centralisée. Les exemples suivants montrent comment définir une étendue globale ou de site.

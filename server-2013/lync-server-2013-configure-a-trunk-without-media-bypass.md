@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration d’une jonction sans déviation du trafic multimédia'
+title: "Lync Server 2013 : Conf. d’une jonction sans déviation du trafic multimédia"
 TOCTitle: Configuration d’une jonction sans déviation du trafic multimédia
 ms:assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg425831(v=OCS.15)
@@ -125,8 +125,18 @@ Une configuration de jonction, comme décrit plus bas, regroupe un ensemble de p
     
       - Pour supprimer une règle de conversion de la jonction, mettez en surbrillance le nom de la règle et cliquez sur **Supprimer**.
     
-    > [!security]  
-    > N’associez pas de règles de conversion à une configuration de jonction si vous avez configuré les règles de conversion sur l’homologue de jonction associé, car les deux règles risquent d’entrer en conflit.
+    <table>
+    <thead>
+    <tr class="header">
+    <th><img src="images/Gg398321.security(OCS.15).gif" title="security" alt="security" />Sécurité Remarque :</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td>N’associez pas de règles de conversion à une configuration de jonction si vous avez configuré les règles de conversion sur l’homologue de jonction associé, car les deux règles risquent d’entrer en conflit.</td>
+    </tr>
+    </tbody>
+    </table>
 
 16. (Facultatif) Associez et configurez les **règles de conversion de numéro appelé** pour la jonction. Les règles de conversion s’appliquent au numéro appelé dans un appel sortant.
     

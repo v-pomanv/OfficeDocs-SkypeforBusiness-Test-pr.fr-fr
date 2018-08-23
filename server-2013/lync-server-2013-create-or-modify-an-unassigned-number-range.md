@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Création ou modification d’une plage de numéros non attribués'
+title: "Lync Server 2013 : Créa. ou modification d’une plage de numéros non attribués"
 TOCTitle: Création ou modification d’une plage de numéros non attribués
 ms:assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg412748(v=OCS.15)
@@ -40,9 +40,10 @@ Appliquez l’une des procédures suivantes pour configurer des plages de numér
     
     > [!NOTE]  
     > <ul>    
-> <li><p>Le numéro de début de la plage doit être inférieur ou égal au numéro de fin de celle-ci.</p></li>    
-> <li><p>Si le numéro de début ou de fin de plage inclut un numéro de poste, les numéros de début et de fin de plage doivent inclure un poste, et le numéro d’extension doit être le même pour les numéros de début et de fin de plage.</p></li>    
-> <li><p>Le numéro doit correspondre à l’expression régulière (tel:)?(\+)?[1-9]\d{0,17}(;ext=[1-9]\d{0,9})?. Cela implique que le numéro peut commencer par la chaîne tel: (si vous ne spécifiez pas cette chaîne, elle sera automatiquement ajoutée pour vous), un signe plus (+) et un chiffre de 1 à 9. Le numéro de téléphone peut comporter jusqu’à 17 chiffres et peut être suivi d’un poste au format ;ext= suivi du numéro de poste.</p></li>    </ul>
+    > <li><p>Le numéro de début de la plage doit être inférieur ou égal au numéro de fin de celle-ci.</p></li>    
+    > <li><p>Si le numéro de début ou de fin de plage inclut un numéro de poste, les numéros de début et de fin de plage doivent inclure un poste, et le numéro d’extension doit être le même pour les numéros de début et de fin de plage.</p></li>    
+    > <li><p>Le numéro doit correspondre à l’expression régulière (tel:)?(\+)?[1-9]\d{0,17}(;ext=[1-9]\d{0,9})?. Cela implique que le numéro peut commencer par la chaîne tel: (si vous ne spécifiez pas cette chaîne, elle sera automatiquement ajoutée pour vous), un signe plus (+) et un chiffre de 1 à 9. Le numéro de téléphone peut comporter jusqu’à 17 chiffres et peut être suivi d’un poste au format ;ext= suivi du numéro de poste.</p></li>
+    > </ul>
 
 
 6.  Dans **Service d’annonce**, effectuez l’une des opérations suivantes :
@@ -63,7 +64,7 @@ Appliquez l’une des procédures suivantes pour configurer des plages de numér
 
 10. Dans la page **Numéro non attribué**, vérifiez que les plages de numéros non attribués s’affichent dans l’ordre voulu. Pour déplacer une plage dans la table, cliquez sur un ou plusieurs noms consécutifs dans la liste de plages, puis cliquez sur la flèche vers le haut ou vers le bas.
     
-    > [!tip]  
+    > [!TIP]  
     > Lync Server analyse la table de haut en bas et utilise la première plage correspondant au numéro non attribué. Si des plages se chevauchent et qu’une plage spécifie une action de dernier recours, vérifiez qu’elle se trouve en bas de la liste.
 
 11. Une fois que vous disposez des plages de numéros non attribués dans l’ordre souhaité, cliquez sur **Valider tout**.
@@ -76,7 +77,7 @@ Appliquez l’une des procédures suivantes pour configurer des plages de numér
 
 3.  Utilisez **New-CsUnassignedNumber** pour créer une plage de numéros non attribués. Utilisez **Set-CsUnassignedNumber** pour modifier une plage de numéros non attribués existante.
     
-    > [!tip]  
+    > [!TIP]  
     > Si des plages se chevauchent et vous souhaitez qu’elles soient appliquées dans un ordre spécifique, incluez le paramètre Priority. La plage dont la priorité est la plus élevée sera appliquée à l’appel.    
     Dans la ligne de commande, effectuez l’une des opérations suivantes :
     

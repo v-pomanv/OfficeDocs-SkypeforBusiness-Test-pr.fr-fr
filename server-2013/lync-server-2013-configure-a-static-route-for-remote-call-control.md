@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration d’un itinéraire statique pour le contrôle d’appel distant'
+title: "Lync Server 2013 : Conf. d’un itin. statique pour le contr. d’appel distant"
 TOCTitle: Configuration d’un itinéraire statique pour le contrôle d’appel distant
 ms:assetid: f7003023-443d-48ee-989b-71e8b0b0abbd
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg615051(v=OCS.15)
@@ -25,7 +25,7 @@ Le contrôle d’appel distant exige que chaque pool Lync Server soit configuré
 
 3.  Pour créer un itinéraire statique et le placer dans la variable $TLSRoute ou $TCPRoute, effectuez l’une des opérations suivantes :
     
-    > [!tip]  
+    > [!TIP]  
     > Pour faire correspondre les domaines enfants d’un domaine, vous pouvez spécifier une valeur à caractère générique dans le paramètre MatchUri. Par exemple, <strong>*.contoso.net</strong> . Cette valeur fait correspondre tout domaine se terminant par le suffixe <strong>contoso.net</strong> .    
       - Pour une connexion TLS (Transport Layer Security), tapez ce qui suit dans l’invite de commandes :
         
@@ -43,6 +43,8 @@ Le contrôle d’appel distant exige que chaque pool Lync Server soit configuré
         
         > [!NOTE]  
         > Si vous spécifiez un nom de domaine complet (FQDN), vous devez commencer par configurer a enregistrement DNS (Domain Name System) A.        
+            
+            
             $TCPRoute = New-CsStaticRoute -TCPRoute -Destination <gateway IP address or FQDN> -Port <gateway SIP listening port> -MatchUri <destination domain>
         
         Exemple :

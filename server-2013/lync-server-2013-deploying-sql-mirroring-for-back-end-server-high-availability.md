@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Déploiement de la mise en miroir SQL pour la haute disponibilité des serveurs principaux'
+title: "Lync Server 2013 : Dépl. mise en miroir SQL pr la haute disp. des serv. Princ."
 TOCTitle: Déploiement de la mise en miroir SQL pour la haute disponibilité des serveurs principaux
 ms:assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204992(v=OCS.15)
@@ -53,7 +53,7 @@ Pour toute modification apportée à la mise en miroir (telle que la modificatio
 
 
 > [!NOTE]  
-> Un partage de fichiers doit être créé pour pouvoir y écrire les fichiers miroir, et le service sous lequel SQL Server et SQL Agent s’exécutent doit disposer d’un accès en lecture/écriture. Si le service SQL Server s’exécute dans le contexte de Network Service, vous pouvez ajouter &lt;Domain&gt;\&lt;SQLSERVERNAME&gt;$ des deux serveurs SQL Server (principal et miroir) aux autorisations de partage. Le signe $ est important afin d’identifier qu’il s’agit d’un compte ordinateur.
+> Un partage de fichiers doit être créé pour pouvoir y écrire les fichiers miroir, et le service sous lequel SQL Server et SQL Agent s’exécutent doit disposer d’un accès en lecture/écriture. Si le service SQL Server s’exécute dans le contexte de Network Service, vous pouvez ajouter &lt;Domain&gt;\\&lt;SQLSERVERNAME&gt;$ des deux serveurs SQL Server (principal et miroir) aux autorisations de partage. Le signe $ est important afin d’identifier qu’il s’agit d’un compte ordinateur.
 
 ## Pour configurer la mise en miroir SQL pendant la création d’un pool dans le Générateur de topologie
 

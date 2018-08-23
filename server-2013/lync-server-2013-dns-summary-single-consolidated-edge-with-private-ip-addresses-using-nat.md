@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Résumé des enregistrements DNS - Serveur Edge unique consolidé avec adresses IP privées avec la conversion d’adresses réseau'
+title: "LS 2013 : Rés. des enr. DNS - SE un. cons. avec ad. IP pri., conv. d’ad. rés."
 TOCTitle: Résumé des enregistrements DNS - Serveur Edge unique consolidé avec adresses IP privées avec la conversion d’adresses réseau
 ms:assetid: a7e5d792-f397-45e5-af85-20d0f4bf405f
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg412787(v=OCS.15)
@@ -47,7 +47,7 @@ Vous pouvez configurer deux cartes réseau dans votre serveur Edge comme suit :
     
     Les adresses IP Edge de conférence web et A/V sont secondaires.
 
-> [!tip]  
+> [!TIP]  
 > La configuration du serveur Edge avec deux cartes réseau est une option. L’autre option consiste à utiliser une carte réseau pour le côté interne et trois cartes réseau pour le côté externe du serveur Edge. Cela permet d’utiliser une carte réseau distincte par service serveur Edge et une collection de données potentiellement plus concise en cas d’identification et de résolution des problèmes.
 
 ### Enregistrements DNS requis pour un serveur Edge consolidé unique avec adresses IP privées utilisant la conversion d’adresses réseau
@@ -135,7 +135,8 @@ Vous pouvez configurer deux cartes réseau dans votre serveur Edge comme suit :
 <td><p>_sipfederationtls._tcp.contoso.com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Interface externe du serveur Edge d’accès SIP. Requise pour permettre la découverte DNS automatique de votre fédération par d’autres partenaires de fédération potentiels, elle est aussi connue sous le nom de « Domaines SIP autorisés » (ou fédération étendue dans les versions précédentes). Répétez si nécessaire pour tous les domaines SIP avec des utilisateurs prenant en charge Lync.</p>
-<div class="alert">
+<div>
+
 > [!IMPORTANT]  
 > Cet enregistrement SRV est requis pour la mobilité et le centre d’échanges de notifications push.
 </div></td>

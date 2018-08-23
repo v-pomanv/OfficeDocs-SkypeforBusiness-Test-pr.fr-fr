@@ -1,6 +1,6 @@
 ﻿---
-title: Résumé des enregistrements DNS - Fédération SIP, fédération XMPP et messagerie instantanée publique
-TOCTitle: Résumé des enregistrements DNS - Fédération SIP, fédération XMPP et messagerie instantanée publique
+title: "Résumé des enr. DNS - Féd. SIP, XMPP et messagerie instantanée publique"
+TOCtitle: "Résumé des enr. DNS - Féd. SIP, XMPP et messagerie instantanée publique"
 ms:assetid: 1ed24fb8-a849-44c0-a52e-7aef7527e644
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ618369(v=OCS.15)
 ms:contentKeyID: 49296455
@@ -50,7 +50,8 @@ Lors de la configuration du système DNS pour la connectivité PIC (Public IM Co
 <td><p>_sipfederationtls._tcp.contoso.com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Interface externe du service Edge d’accès. Requise pour permettre la découverte DNS automatique de votre fédération par d’autres partenaires de fédération potentiels, elle est aussi connue sous le nom de « Domaines SIP autorisés » (ou fédération étendue dans les versions précédentes). Répétez si nécessaire pour tous les domaines SIP avec des utilisateurs prenant en charge Lync.</p>
-<div class="alert">
+<div>
+
 > [!IMPORTANT]  
 > Cet enregistrement SRV est requis pour la mobilité et le centre d’échanges de notifications push. Lorsque plusieurs domaines SIP sont présents, créez et publiez un enregistrement SRV pour chaque domaine amené à contenir plusieurs clients Lync Mobile. Le service de notifications Push et le service de notifications Push Apple risquent de ne pas fonctionner comme prévu si un enregistrement SRV explicite n’est pas affecté à chaque domaine SIP pris en charge par le déploiement.
 </div></td>

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Définition d’un serveur de médiation dans le générateur de topologie'
+title: "Lync Server 2013 : Déf. d’un serv. de médiation dans le générateur de topo."
 TOCTitle: Définition d’un serveur de médiation dans le générateur de topologie
 ms:assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398391(v=OCS.15)
@@ -37,9 +37,10 @@ Suivez les étapes présentées dans cette rubrique pour utiliser le Générateu
     
     > [!NOTE]  
     > <ul>    
-> <li><p>Si le type de pool de serveurs frontaux sélectionné correspond à la version Enterprise Edition, le composant serveur de médiation est installé sur tous les serveurs frontaux de ce pool de serveurs frontaux.</p></li>    
-> <li><p>Le <strong>Pool du tronçon suivant</strong> utilisé par le serveur de médiation est le pool de serveurs frontaux sur lequel le serveur de médiation est colocalisé.</p></li>    
-> <li><p>Le <strong>Pool de serveurs Edge</strong> utilisé par le serveur de médiation correspond au pool de serveurs Edge associé au pool de serveurs frontaux sur lequel le serveur de médiation est colocalisé.</p></li>    </ul>
+    > <li><p>Si le type de pool de serveurs frontaux sélectionné correspond à la version Enterprise Edition, le composant serveur de médiation est installé sur tous les serveurs frontaux de ce pool de serveurs frontaux.</p></li>    
+    > <li><p>Le <strong>Pool du tronçon suivant</strong> utilisé par le serveur de médiation est le pool de serveurs frontaux sur lequel le serveur de médiation est colocalisé.</p></li>    
+    > <li><p>Le <strong>Pool de serveurs Edge</strong> utilisé par le serveur de médiation correspond au pool de serveurs Edge associé au pool de serveurs frontaux sur lequel le serveur de médiation est colocalisé.</p></li>
+    > </ul>
 
 
 6.  Cliquez sur **Utiliser par défaut** pour utiliser ce pool de serveurs frontaux afin d’acheminer les appels de Microsoft Office Communications Server 2007 R2 vers le réseau téléphonique commuté.

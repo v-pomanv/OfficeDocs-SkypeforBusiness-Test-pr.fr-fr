@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : accès au site d’approvisionnement de connectivité PIC de Lync Server'
+title: "Lync Server 2013 : accès au site d’approv. de connectivité PIC de Lync Server"
 TOCTitle: Accès au site d’approvisionnement de connectivité PIC de Lync Server
 ms:assetid: 77a08234-6bcf-4f59-b43b-ee5fc1926585
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Dn440174(v=OCS.15)
@@ -47,7 +47,8 @@ Le processus d'approvisionnement de la connectivité Lync-Skype a changé par ra
 > <li><p>Dans la page <strong>Émettre une demande d’approvisionnement</strong>, cliquez sur le lien approprié pour émettre une demande d’approvisionnement :</p></li>
 > <li><p>Dans la page <strong>Indiquer les informations d’approvisionnement</strong> entrez le <strong>nom complet du service Edge d’accès</strong>. Par exemple, <strong>accessedge.contoso.com</strong>.</p></li>
 > <li><p>Entrez au moins un nom de domaine SIP, puis cliquez sur <strong>Ajouter</strong>.</p>
-<div class="alert">
+<div>
+
 > [!IMPORTANT]  
 > Au moins un serveur Edge d'accès et un domaine SIP sont requis pour effectuer le processus d'approvisionnement. Le domaine SIP et le serveur Edge d'accès doivent être actifs, en état de fonctionnement et accessibles sur le réseau.
 </div></li><li><p>Dans la liste des <strong>fournisseurs de service de messagerie instantanée publique</strong>, sélectionnez <strong>Skype,</strong> et cliquez sur <strong>Suivant</strong> pour ajouter des coordonnées, puis envoyez la demande d’approvisionnement.</p></li></ol></td>
@@ -58,7 +59,8 @@ Le processus d'approvisionnement de la connectivité Lync-Skype a changé par ra
 > <li><p>Dans la page <strong>Émettre une demande d’approvisionnement</strong>, cliquez sur le lien approprié pour émettre une demande d’approvisionnement :</p></li>
 > <li><p>Dans la page <strong>Indiquer les informations d’approvisionnement</strong> entrez le <strong>nom complet du service Edge d’accès</strong>. Par exemple, <strong>accessedge.contoso.com</strong>.</p></li>
 > <li><p>Entrez au moins un nom de domaine SIP, puis cliquez sur <strong>Ajouter</strong>.</p>
-<div class="alert">
+<div>
+
 > [!IMPORTANT]  
 > Au moins un serveur Edge d'accès et un domaine SIP sont requis pour effectuer le processus d'approvisionnement. Le domaine SIP et le serveur Edge d'accès doivent être actifs, en état de fonctionnement et accessibles sur le réseau.
 </div></li><li><p>Dans la liste des <strong>fournisseurs de service de messagerie instantanée publique</strong>, sélectionnez <strong>Skype,</strong> et cliquez sur <strong>Suivant</strong> pour ajouter des coordonnées, puis envoyez la demande d’approvisionnement.</p></li></ol></td>

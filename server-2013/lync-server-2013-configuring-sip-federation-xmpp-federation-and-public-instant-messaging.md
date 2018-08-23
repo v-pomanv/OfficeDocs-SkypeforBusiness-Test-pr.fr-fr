@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration des fédérations SIP et XMPP et de la messagerie instantanée publique'
+title: "Lync Server 2013 : Conf. des féd. SIP et XMPP et mess. inst. publique."
 TOCTitle: Configuration des fédérations SIP et XMPP et de la messagerie instantanée publique
 ms:assetid: a6d04f0b-5cb8-4084-a3a2-d501938971f9
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205134(v=OCS.15)
@@ -79,7 +79,8 @@ La fédération XMPP définit un déploiement externe basé sur le protocole XMP
 <td><p>Déterminer les options à ajouter au déploiement Edge existant</p></td>
 <td><p>Exécuter le Générateur de topologie pour modifier les paramètres du serveur Edge et créer et publier la topologie. Votre topologie Edge existante répliquera les modifications du magasin central de gestion vers le serveur Edge.</p></td>
 <td><p>Groupe Administrateurs du domaine et groupe RTCUniversalServerAdmins</p>
-<div class="alert">
+<div>
+
 > [!NOTE]  
 > Vous pouvez modifier une topologie à l’aide d’un compte qui est membre du groupe d’utilisateurs locaux, mais la publication d’une topologie nécessite un compte membre du groupe Administrateurs du domaine et du groupe RTCUniversalServerAdmins.
 </div></td>

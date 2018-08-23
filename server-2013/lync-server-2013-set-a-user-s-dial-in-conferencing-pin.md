@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Définition du code confidentiel de conférence rendez-vous d’un utilisateur'
+title: "Lync Server 2013 : Déf. du code conf. de conférence rdv d’un utilisateur"
 TOCTitle: Définition du code confidentiel de conférence rendez-vous d’un utilisateur
 ms:assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg520985(v=OCS.15)
@@ -44,7 +44,7 @@ Pour participer à une conférence rendez-vous en tant qu’utilisateur authenti
     
     4.  Selon la propriété utilisateur que vous avez sélectionnée, entrez le critère que vous souhaitez utiliser pour filtrer les résultats de recherche en le tapant ou en cliquant sur la flèche dans la liste déroulante.
         
-        > [!tip]  
+        > [!TIP]  
         > Pour ajouter des clauses de recherche supplémentaires à la requête, cliquez sur <strong>Ajouter un filtre</strong>.    
     5.  Cliquez sur **Rechercher**.
     
